@@ -14,4 +14,4 @@ for (let i = 0; i < 10; i++) {
 }
 
 console.log(listaNumeri)
-console.log(sommaNumer)
+console.log(`La somma dei numeri dentro l'Array è ${sommaNumeri}`)
