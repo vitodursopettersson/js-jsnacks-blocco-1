@@ -8,7 +8,7 @@ for (let i = 0; i < n; i++) {
     const arrayItem = []
 
     for (let i = 0; i < 10; i++) {
-        const randomNumber = Math.floor(Math.random() * 100);
+        const randomNumber = Math.floor(Math.random() * 100) + 1;
         arrayItem.push(randomNumber)
     }
 
