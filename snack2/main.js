@@ -1,3 +1,5 @@
+'use strict'
+
 // L’utente inserisce due parole in successione, con due prompt.
 
 const firstWord = prompt('Inserisci la prima parola');
