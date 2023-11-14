@@ -4,8 +4,8 @@
 const listaNumeri = []
 let sommaNumeri = 0
 
-// Ciclo con while
 /*
+// Ciclo con while
 while (sommaNumeri < 50) {
     let itemNumero = Number(prompt('Inserisci un numero'));
     listaNumeri.push(itemNumero);
@@ -20,11 +20,11 @@ console.log(`Hai raggiunto il limite`);
 
 
 // Ciclo con for
-let itemNumero = Number(prompt('Inserisci un numero'));
+
+let itemNumero = Number(prompt('Inserisci il primo numero'));
 listaNumeri.push(itemNumero);
 sommaNumeri += itemNumero;
-
-console.log(`Aggiungo il numero: ${itemNumero}`);
+console.log(`Aggiungo il primo numero: ${itemNumero}`);
 
 for (let i = 0; i < listaNumeri.length; i++) {
     if (sommaNumeri < 50) {
@@ -32,10 +32,9 @@ for (let i = 0; i < listaNumeri.length; i++) {
         listaNumeri.push(itemNumero);
         console.log(`Aggiungo il numero: ${itemNumero}`);
         sommaNumeri += itemNumero;
-        console.log(`La somma è: ${sommaNumeri}`)
+        console.log(`La somma è: ${sommaNumeri}`);
 
     } else {
         console.log(`Hai raggiunto il limite`);
-        break
     }
 }
